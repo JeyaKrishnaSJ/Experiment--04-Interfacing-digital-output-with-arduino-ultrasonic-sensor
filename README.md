@@ -1,5 +1,7 @@
 # EXPERIMENT-NO--04-Distance measurement using Ultrasonic sensor
 
+## DATE: 08/05/23
+
 ## AIM: 
 To interface an ultrasonic pair and measure the distance in centimeters , calculate the error
  
@@ -55,6 +57,7 @@ speed of sound in the air at 20ºC (68ºF) = 343m/s
 
 
 ### PROGRAM 
+```
 #define echoPin 9
 #define trigPin 10
 long duration;
@@ -78,7 +81,7 @@ void loop() {
   Serial.println("cm");
 }
 
-
+```
 
 
 
@@ -104,14 +107,16 @@ void loop() {
 
 
 
+### OUTPUT
 
 ![Screenshot (99)](https://github.com/JeyaKrishnaSJ/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/118707091/e27d3200-4ff6-40a9-a2c3-e716001c41a9)
+
+ ![Screenshot (100)](https://github.com/JeyaKrishnaSJ/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/118707091/8d5b94d6-3680-4d48-9ad7-69f0e31634ab)
+
 
 
 
 ### RESULTS
 
-
-
- ![Screenshot (100)](https://github.com/JeyaKrishnaSJ/Experiment--04-Interfacing-digital-output-with-arduino-ultrasonic-sensor/assets/118707091/8d5b94d6-3680-4d48-9ad7-69f0e31634ab)
+Interface an ultrasonic pair and measuring the distance in centimeters , calculating the error is successful
 
